@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "bordercolors",
+  "version": "${version}",
+
+  "name": "Border Colors",
+  "description": "Ever wanted the worldborder to look a different color? Well, here you go!",
+  "authors": [
+    "@balt#6423"
+  ],
+  "contact": {
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/bordercolors/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.bordercolors.BorderColors"
+    ],
+    "modmenu": [
+      "net.bordercolors.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

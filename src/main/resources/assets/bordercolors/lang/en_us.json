@@ -1,0 +1,7 @@
+{
+  "title.bordercolors.config" : "Border Colors Config",
+  "category.bordercolors.general" : "General",
+  "option.bordercolors.stationary" : "Stationary Color",
+  "option.bordercolors.growing" : "Growing Color",
+  "option.bordercolors.shrinking" : "Shrinking Color"
+}
